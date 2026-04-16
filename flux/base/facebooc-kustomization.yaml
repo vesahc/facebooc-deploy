@@ -1,5 +1,5 @@
 ---
-apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
+apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: facebooc
@@ -17,5 +17,4 @@ spec:
     name: facebooc
   targetNamespace: facebooc
   timeout: 3m0s
-  validation: client
 
